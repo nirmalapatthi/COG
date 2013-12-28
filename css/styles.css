@@ -16,7 +16,7 @@
 
 html {
 	overflow-y:scroll;
-	background:#fff;	
+	background:#757070;	
 }
 
 body {
@@ -25,16 +25,16 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 	font-size: 15px;
 	line-height: 20px;
-	color: #8c8e90;
+	color: #080101;
 	-webkit-font-smoothing: subpixel-antialiased;
 	-webkit-text-size-adjust: 100%;	
 	cursor:default;
-  background:#fff;
+  background:#979797;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Titillium Web', sans-serif; 
-  color:#206952;
+  color:#fff;
   line-height:1.4em;    
   margin:0px;
   clear:both !important;
@@ -42,27 +42,27 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size:36px;
-  color:#323232;
+  color:#fff;
   font-weight:500;
   padding: 36px 0;  
 }
 
 h2 {
   font-size:22px;
-  color:#278165;
+  color:#fff;
   font-weight:bold;
   padding: 22px 0;  
 }
 
 h3 {
-  color:#323232;
+  color:#fff;
   font-size:20px;
   font-weight:500;
   padding: 20px 0;  
 }
 
 h4 {
-  color:#323232;
+  color:#fff;
   font-size:16px;
   font-weight:500;
   text-transform:uppercase;
@@ -70,7 +70,7 @@ h4 {
 }
 
 h5, h6 {
-  color:#323232;
+  color:#fff;
   font-size:15px;
   font-weight:500;  
   padding: 15px 0;
@@ -87,12 +87,12 @@ blockquote {
 }
 
 a {
-  color:#2f9b79;
+  color:#323232;
   text-decoration:none;
 }
 
 a:hover {
-  color:#2f9b79;
+  color:#fff;
   text-decoration:none;
 }
 
@@ -232,8 +232,8 @@ img {
 header {
   position:relative;
   color:#979797;
-  background:url(../img/background.jpg) center top no-repeat #2f8f71;
-  border-bottom:3px solid #236b54;
+  /*background:url(../img/background.gif) center top no-repeat #2f8f71; */
+  border-bottom:3px solid #323232;
   display:block;
 }
 
@@ -253,7 +253,7 @@ header {
 } 
 
 .search-top input {
-  background:#2f9b79; 
+  background:#3c3c3c;
 }
   
 .search-top i {
@@ -301,8 +301,8 @@ header {
 
 .navbar .nav {
   width:100%;
-  background:#2f9b79;
-  border-bottom:3px solid #278165;
+  background:#323232;
+  border-bottom:3px solid #323232;
   margin:0px;
 }
 
@@ -313,7 +313,7 @@ header {
 .navbar .nav > li > a {
   position:relative;
   height:20px;
-	color: #4effc7 !important;
+	color: #fff !important;
   text-shadow: none;
   padding:14px 24px 14px 24px; 
   background: transparent !important;
@@ -325,12 +325,12 @@ header {
 
 .navbar .nav > li:hover > a {
 	color:#fff !important;
-  background:#278165 !important;
+  background:#999 !important;
 }
 
 .navbar .nav > li.active > a {
 	color:#fff !important;
-  background:#278165 !important;  
+  background:#999 !important;  
   -webkit-box-shadow:rgba(0, 0, 0, 0) 0 0 0 !important;
   box-shadow:rgba(0, 0, 0, 0) 0 0 0 !important;
 }
@@ -344,14 +344,14 @@ header {
   	z-index:99;
   	margin:0px; 
     padding:10px 20px 8px 20px; 
-  	background:#278165;  
+  	background:#999;  
   }     
          
   .navbar .nav li:hover ul {
     position:absolute;
   	display:block;
   	list-style-type:none;
-    border-bottom:2px solid #206952;
+    border-bottom:2px solid #323232;
   }  
   
   .navbar .nav li ul li {
@@ -364,7 +364,7 @@ header {
   	-o-transition:all 0.3s;
   	-ms-transition:all 0.3s;
   	transition:all 0.3s;
-    border-bottom:1px solid #2f9b79;
+    border-bottom:1px solid #323232;
     cursor:pointer;
   }
   
@@ -373,7 +373,7 @@ header {
   }
   
   .navbar .nav li ul li a {
-    color:#39bb92;
+    color:#080101;
   	padding:10px 0px 9px 0px;
   	margin:0px;
     display:block;
@@ -381,7 +381,7 @@ header {
   }
   
   .navbar .nav li ul li:hover a {
-  	color:#4effc7;
+  	color:#fff;
   }
 
 /* --------------------------------------------------------	*/
@@ -408,14 +408,14 @@ header {
 }
    
 .title-1 {
-  color:#278165;
+  color:#fff;
   float:left;
   font-size:16px;
   line-height:30px;
 }
 
 .title-1 h3 {
-  color:#278165;
+  color:#fff;
   padding-top:4px;
 }
 
@@ -432,11 +432,11 @@ header {
 .square-1 {
   color:#999;
   padding-bottom:24px;
-  border-bottom:2px solid #cecece; 
+  border-bottom:2px solid #fff; 
 }
 
 .square-1:hover {
-  border-bottom:2px solid #39bb92; 
+  border-bottom:2px solid #323232; 
 }
 
 .square-1 img {
@@ -469,7 +469,7 @@ header {
 }
 
 .square-1:hover h3 {
-  color:#2f9b79;
+  color:#323232;
 }  
 
 .h-button {
@@ -551,7 +551,7 @@ header {
   border:0px;
   padding:30px;
   color:#fff;  
-  background:#2f9b79;
+  background:#999;
 }
 
 .client-says:after {
@@ -562,13 +562,13 @@ header {
 	left: 40px;
 	bottom: -24px;
 	border: 12px solid;
-	border-color: #2f9b79 transparent transparent #2f9b79;
+	border-color: #999 transparent transparent #999;
 }
 
 .client-says-2 {
   position:relative;
   font-style:italic;
-  color:#2f9b79;
+  color:#323232;
   text-align:right;
   padding-top:15px;
   padding-right:30px;
@@ -1388,7 +1388,8 @@ table a:hover{
     color:#fff;
     background:#ad0c34;
   }  
-  
+
+      
 /* --------------------------------------------------------	*/
 /*	Social Networks Icons */
 /* --------------------------------------------------------	*/
